@@ -7,6 +7,7 @@ Initially, I downloaded the color image in my computer and cropped the image fro
 out a region, the region size is half the original image as shown in the figure 1.
 
 ![image](https://user-images.githubusercontent.com/49640942/226531602-b425271f-f4b3-48f5-9324-6c625539f838.png)
+
 Figure 1 original color image and cropped version
  
 Red Channel
@@ -18,6 +19,7 @@ take the image array and set required channels 0. For example; img[:, :, 1] = 0 
 which representing the blue and green channels.
 
 ![image](https://user-images.githubusercontent.com/49640942/226531651-93f653f7-4e03-4634-bb6e-946423fb03a3.png)
+
 Figure 2 Red channel only
 
 Gray Scale
@@ -30,6 +32,7 @@ format, converted it to grayscale using cv2.cvtColor() method, and displayed it 
 The output can be seen on the figure 3.
 
 ![image](https://user-images.githubusercontent.com/49640942/226531725-5f24e62b-7517-444c-aab2-c0e766e86545.png)
+
 Figure 3 Gray Scale
 
 Sobel Filter
